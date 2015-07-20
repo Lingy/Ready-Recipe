@@ -1,0 +1,52 @@
+@media only screen and (min-width : 1024px){ 
+	.form-holder{float:left; margin:275px 0 0 45px; width:55%;}
+	.button {width:120px;margin-left:10px;padding: 20px; float:left;}
+	.ss-form-question{width:70%; float:left;}
+}
+
+@media only screen and (min-width : 768px) and (max-width : 980px){
+		.content{width:100%; margin: 0 auto; }
+		.title{float:right; width:360px; }
+		.iphone-div{margin:50px 0 0 5px; position:relative; float:left;}
+		.headline h1{font-size:30px;}
+		.form-holder{float:left; margin:250px 0 0 3px; width:58%;}
+		.button {width:120px;margin-left:10px;padding: 20px; float:left;}
+		.ss-form-question{width:70%; float:left;}
+	}
+	
+@media only screen and (max-width : 767px){
+	
+	.content{width:100%; margin: 0 auto; }
+		.title{float:right; width:360px; }
+		.iphone-div{margin:auto !important; width:100%; position:relative; float:none !important;}
+		.headline h1{font-size:30px; text-align:center;}
+		.title{float:inherit; width:100%;}
+		.form-holder{float:none; width:100%; margin:0px auto;}
+		.iphone{width:100%; margin:auto;}
+		.ss-form-question{width:74%; float:left;}
+		.img{display:block; text-align:center; margin:auto;}
+		.form-holder{float:none; width:100%; margin:0px auto; text-align:left; margin-top:15px;}
+		.field {width:100%; padding:18px; font-size:14px; margin:auto !important; float:left;}
+		.button {width:95px;margin-left:10px;padding: 15px;border: solid 3px;font-size: 18px;text-align: center; float:left;}
+		.but { float:left;}
+		.iphone-div{margin:50px 0 0 32px; position:relative;float:left;}
+		
+
+}
+		
+@media only screen and (min-width : 480px) and (max-width : 767px){
+	.background-img{background-image:none;}
+	.content{width:90%; margin: 0 auto; }
+	
+}
+
+@media only screen and (max-width : 479px){
+	.background-img{background-image:none;}
+	.content{width:90%; margin: 0 auto; }
+	.ss-form-question{width:100%; float:left;}
+	.button {width:95px;margin-left:10px;padding: 15px;border: solid 3px;font-size: 18px;text-align: center; float:none;}
+	.but {width:100%; float:left; text-align:center; margin:8px auto;}
+	.field {width:100%; padding:18px; font-size:14px; margin:auto !important; float:left; text-align:center;}
+}
+
+

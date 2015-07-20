@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <link href="foundation.css" rel="stylesheet">
+	  <link href="recipe.css" rel="stylesheet" media="all">
+       <link href="media.css" rel="stylesheet" media="all">
+	  
+	  <meta name="viewport" content="width=device-width; initial-scale=1.0; user-scalable= no">
+      
+      <title>Ready Recipe</title>
+      <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+      <script src="responsiveslides.js"></script>
+   </head>
+   <body>
+   <div class="row background-img">
+      <div class="content">
+      
+      <!-------------------------------------------------------------------->
+      
+      <div class="title">
+                        <div class="headline">
+                        <img src="img/RR_logo.png" class="img" width='400'>
+                        <h1>The simplest way to organise your photo recipes</h1>
+               		</div>
+                    
+                </div>
+                
+                
+         <div class="row">
+         		<div class="iphone-div">
+                		<div class="iphone">
+                        <ul class="rslides">
+                          <li><img src="img/1.png" alt=""></li>
+                          <li><img src="img/2.png" alt=""></li>
+                          <li><img src="img/3.png" alt=""></li>
+                          <li><img src="img/4.png" alt=""></li>
+                          <li><img src="img/5.png" alt=""></li>
+                          <li><img src="img/6.png" alt=""></li>
+                        </ul>
+                        <script>
+                             $(function() {
+                             $(".rslides").responsiveSlides({
+                             
+                             speed: 500,
+                             });
+                             });
+                          </script>
+                      </div>
+                </div>
+                
+                	
+                
+                <div class="form-holder">
+                	<form action="https://docs.google.com/forms/d/1ngUTu8y2t1Wcxha3cBwQXfRahLcDMenkwFH1k8EemFs/formResponse?embedded=true" method="POST" id="ss-form" target="_self" onsubmit="">
+           
+                        <div class="ss-form-question errorbox-good">
+                           <div dir="ltr" class="ss-item  ss-text">
+                              <div class="ss-form-entry">
+                                 <label aria-hidden="true" class="ss-q-item-label" for="entry_2053840526">
+                                    <div class="ss-q-title"></div>
+                                    <div class="ss-q-help ss-secondary-text" dir="ltr"></div>
+                                 </label>
+                                 <input type="text" name="entry.2053840526" placeholder="Email me when it's available" value="" class="field ss-q-short valid" id="entry_2053840526" dir="auto" aria-label="Email me when it's available" title="">
+                                 <div class="error-message"></div>
+                              </div>
+                           </div>
+                        </div>
+                        <input type="hidden" name="draftResponse" value="[,,&quot;-5730372029741585545&quot;]">
+                        <input type="hidden" name="pageHistory" value="0">
+                        <input type="hidden" name="fbzx" value="-5730372029741585545">
+                        <div class="but"><input class="button" type="submit" value="Go"></div>
+                        </form>
+                </div>
+         </div>
+    </div>
+ </div> 
+       <div class="footer-container"> 
+        <div class="footer">
+   		<p>Made by <a href="http://www.twitter.com/aylinahmet">Aylin</a>, Cynthia, Ronald and Enrico.</p> 
+    	</div>
+	</div>
+   </body>
+</html>
