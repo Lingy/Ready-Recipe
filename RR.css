@@ -1,20 +1,18 @@
 @import url(http://fonts.googleapis.com/css?family=Nunito:300);
 
-
 body {
 	font-family: 'nunito', sans-serif;
-	font-weight: 300;
 	display:block;
 	background: #190424;
+	font-size:2.8em;
 }
 
-.hero {
-	padding-bottom: 6.25rem;
-	text-align: center;
-	overflow: hidden;
-	height: 50em;
-	width:63.179%;
-	margin-left: 18.41%;
+.row {
+	width:60%;
+}
+
+.large-12 {
+	z-index: -10;
 }
 
 .header {
@@ -37,6 +35,13 @@ body {
 	color:#FFBB4D;
 }
 
+.img {
+	max-width: 100%;
+	height: auto; 
+	display: block;
+	z-index: -1;
+}
+
 .middle {
 	padding-top: 4.375rem;
 	text-align: center;
@@ -55,7 +60,6 @@ body {
 }
 
 h3 {
-	font-size: 40px;
 	color: white;
 	letter-spacing: 1.8px;
 	text-align: left;
@@ -64,7 +68,7 @@ h3 {
 
 h5 {
 	color:white;
-	font-size: 14px;
+	font-size: .4em;
 	text-align: center;
 }
 
@@ -75,4 +79,33 @@ h5 {
 
 .headline {
 	margin-bottom: 30px;
+}
+
+
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+  	.pagetitle h3 {
+  		font-size: 30px;
+  		margin:15% auto;
+  		line-height: 1.3em;
+  	}
+  	.row {
+  		width:80%;
+  		}
+ 	.large-12 {
+ 		margin:15% auto;
+ 	}	
+  	h3 {
+  		text-align: center;
+  	}
+  	h5 {
+  		font-size: 10px;
+  	}
+  	.img {
+  		width: 100%;
+  	}
+  
+  
 }
